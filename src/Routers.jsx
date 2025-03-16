@@ -11,10 +11,10 @@ function Routers() {
     return (
         <Router>
             <Routes>
-                <Route path="/" Component={<Home/>}/>
+                <Route path="/" Component={Home}/>
                 <Route path="/ayat/:nomorSurah" Component={Ayat}/>
                 <Route path="/doa" Component={Doa}/>
-                <Route path="/AsmaulHusna" Component= {<AsmaulHusna/>}/>
+                <Route path="/AsmaulHusna" Component= {AsmaulHusna}/>
                 <Route path="app"Component= {App}/>
                 
             </Routes>
