@@ -32,7 +32,7 @@ function Home() {
             </div>
 
             {/* Card 3 - Asmaul Husna */}
-            <div onClick={() => navigate('/AsmaulHusna')} className="cursor-pointer bg-white shadow-lg rounded-2xl p-6 w-full max-w-md flex items-center space-x-4 mt-4 transform transition-all hover:scale-105 hover:shadow-2xl">
+            <div onClick={() => navigate('/asmaulhusna')} className="cursor-pointer bg-white shadow-lg rounded-2xl p-6 w-full max-w-md flex items-center space-x-4 mt-4 transform transition-all hover:scale-105 hover:shadow-2xl">
                 <FaStarAndCrescent className="text-blue-500 text-3xl" />
                 <div>
                     <h2 className="text-xl font-semibold">Asmaul Husna</h2>
