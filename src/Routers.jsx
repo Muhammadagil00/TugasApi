@@ -2,7 +2,7 @@ import { BrowserRouter as Router , Routes , Route } from "react-router";
 
 import Ayat from "./Ayat";
 import Doa from "./doa";
-import Asmaulhusna from "./Asmaulhusna";
+import AsmaulHusna from "./AsmaulHusna";
 import Home from "./home";
 import App from "./App";
 
@@ -14,7 +14,7 @@ function Routers() {
                 <Route path="/" Component={Home}/>
                 <Route path="/ayat/:nomorSurah" Component={Ayat}/>
                 <Route path="/doa" Component={Doa}/>
-                <Route path="/asmaulhusna" Component={Asmaulhusna}/>
+                <Route path="/AsmaulHusna" Component={AsmaulHusna}/>
                 <Route path="app"Component= {App}/>
                 
             </Routes>

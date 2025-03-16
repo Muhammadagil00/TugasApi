@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function Asmaulhusna() {
+function AsmaulHusna() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -47,4 +47,4 @@ function Asmaulhusna() {
   );
 }
 
-export default Asmaulhusna;
+export default AsmaulHusna;
