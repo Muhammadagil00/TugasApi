@@ -1,7 +1,7 @@
 import { BrowserRouter as Router , Routes , Route } from "react-router";
 
 import Ayat from "./Ayat";
-import Doa from "./Doa";
+import Doa from "./doa";
 import Asmaulhusna from "./Asmaulhusna";
 import Home from "./home";
 import App from "./App";
