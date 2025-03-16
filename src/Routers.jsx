@@ -1,10 +1,10 @@
 import { BrowserRouter as Router , Routes , Route } from "react-router";
 
 import Ayat from "./Ayat";
-import doa from "./doa";
-import asmaulhusna from "./asmaulhusna";
-import app from "./app";
+import Doa from "./Doa";
+import Asmaulhusna from "./Asmaulhusna";
 import Home from "./home";
+import App from "./App";
 
 
 function Routers() { 
@@ -13,9 +13,9 @@ function Routers() {
             <Routes>
                 <Route path="/" Component={Home}/>
                 <Route path="/ayat/:nomorSurah" Component={Ayat}/>
-                <Route path="/doa" Component={doa}/>
-                <Route path="/asmaulhusna" Component={asmaulhusna}/>
-                <Route path="app" Component={app}/>
+                <Route path="/doa" Component={Doa}/>
+                <Route path="/asmaulhusna" Component={Asmaulhusna}/>
+                <Route path="app"Component= {App}/>
                 
             </Routes>
         </Router>
