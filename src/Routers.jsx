@@ -4,7 +4,7 @@ import Ayat from "./Ayat";
 import Doa from "./doa";
 import Home from "./Home";
 import App from "./App";
-import AsmaulHusna from "./asmaulhusna";
+import AsmaulHusna from "./Asmaulhusna";
 
 
 function Routers() { 
